@@ -1,0 +1,96 @@
+{
+  "capturedUtc": "2026-11-23T11:59:47.982Z",
+  "method": "Automated Chromium run against the supplied local host",
+  "faults": {
+    "slow": {
+      "message": "Game data verified: Reference target range",
+      "state": {},
+      "status": "Press Start game to face the dragon"
+    },
+    "http": {
+      "message": "Game data request failed: HTTP 503",
+      "state": {},
+      "status": "No verified game data yet, so the game can't start"
+    },
+    "malformed": {
+      "message": "Game data is malformed: the response is not valid JSON",
+      "state": {},
+      "status": "No verified game data yet, so the game can't start"
+    },
+    "unexpected": {
+      "message": "Unexpected game definition: this package supports only the fixed reference definition",
+      "state": {},
+      "status": "No verified game data yet, so the game can't start"
+    }
+  },
+  "loading": "Loading game data...",
+  "slowElapsedMs": 1994,
+  "success": "Game data verified: Reference target range",
+  "event": {
+    "runId": "run-a176e1d0",
+    "before": {
+      "ammunition": "2",
+      "score": "0",
+      "shots": "0",
+      "status": "active"
+    },
+    "after": {
+      "ammunition": "1",
+      "score": "1",
+      "shots": "1",
+      "status": "active"
+    },
+    "rowText": "2026-11-23T11:59:50.930Zrun-a176e1d01hitaccepted{\"ammunition\":2,\"score\":0,\"shots\":0,\"status\":\"active\"}{\"ammunition\":1,\"score\":1,\"shots\":1,\"status\":\"active\"}",
+    "record": {
+      "receivedAt": "2026-11-23T11:59:50.930Z",
+      "requestId": "c5f535c9-6b2f-4458-b031-ba58574742bc",
+      "runId": "run-a176e1d0",
+      "sequence": 1,
+      "action": "hit",
+      "accepted": true,
+      "before": {
+        "ammunition": 2,
+        "score": 0,
+        "shots": 0,
+        "status": "active"
+      },
+      "after": {
+        "ammunition": 1,
+        "score": 1,
+        "shots": 1,
+        "status": "active"
+      }
+    }
+  },
+  "failedReload": {
+    "before": {
+      "ammunition": "1",
+      "score": "1",
+      "shots": "1",
+      "status": "active"
+    },
+    "after": {
+      "ammunition": "1",
+      "score": "1",
+      "shots": "1",
+      "status": "active"
+    },
+    "message": "Game data request failed: HTTP 503",
+    "afterMiss": {
+      "ammunition": "0",
+      "score": "1",
+      "shots": "2",
+      "status": "complete"
+    },
+    "runIdUnchanged": true
+  },
+  "collectorDown": {
+    "message": "Local recording unavailable",
+    "state": {
+      "ammunition": "1",
+      "score": "1",
+      "shots": "1",
+      "status": "active"
+    }
+  }
+}
